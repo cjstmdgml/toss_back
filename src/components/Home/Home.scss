@@ -1,0 +1,27 @@
+.Home {
+  &-top {
+    margin-top: 120px;
+    &-img {
+      margin-bottom: 40px;
+    }
+    &-logo {
+      color: #0064ff;
+      font-size: 70px;
+    }
+  }
+  &-bottom {
+    margin-top: 230px;
+    &-loginBtn,
+    &-signUpBtn {
+      width: 386px;
+      height: 60px;
+      border-radius: 5px;
+      border: none;
+      background-color: #3e77ec;
+      color: #ffffff;
+      font-size: 20px;
+      margin-bottom: 13px;
+      font-weight: normal;
+    }
+  }
+}

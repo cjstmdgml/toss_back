@@ -1,0 +1,125 @@
+.SignUp {
+  text-align: left;
+  width: 420px;
+  height: 850px;
+  &-top {
+    margin-left: 17px;
+    &-img {
+      margin-top: 22px;
+      margin-bottom: 33px;
+    }
+  }
+  &-mid {
+    margin-left: 30px;
+    &-text {
+      font-size: 25px;
+      font-weight: bold;
+      color: #000000;
+      margin-bottom: 43px;
+    }
+    &-id,
+    &-nickname {
+      display: flex;
+      margin-bottom: 33px;
+      &-left {
+        margin-right: 10px;
+        &-text {
+          font-size: 15px;
+          color: #7c7b82;
+        }
+        &-input {
+          border: none;
+          border-bottom: 2px solid #f0f0f2;
+          width: 216px;
+          color: #7c7b82;
+        }
+      }
+      &-right {
+        &-btn {
+          width: 128px;
+          height: 40px;
+          background-color: #3e77ec;
+          color: #ffffff;
+          font-size: 15px;
+          border: none;
+          border-radius: 5px;
+        }
+      }
+    }
+    &-pw,
+    &-pn,
+    &-name {
+      margin-bottom: 33px;
+      &-text {
+        font-size: 15px;
+        color: #7c7b82;
+      }
+      &-input {
+        border: none;
+        border-bottom: 2px solid #f0f0f2;
+        width: 354px;
+        color: #7c7b82;
+      }
+    }
+    &-rrn {
+      margin-bottom: 33px;
+      &-text {
+        font-size: 15px;
+        color: #7c7b82;
+      }
+      &-input1 {
+        border: none;
+        border-bottom: 2px solid #f0f0f2;
+        width: 177px;
+        margin-right: 10px;
+        color: #7c7b82;
+      }
+      &-input2 {
+        border: none;
+        border-bottom: 2px solid #f0f0f2;
+        width: 25px;
+        margin-left: 10px;
+        color: #7c7b82;
+      }
+    }
+    &-photo {
+      display: flex;
+      &-left {
+        margin-top: 10px;
+        &-text {
+          color: #7c7b82;
+          font-size: 15px;
+        }
+      }
+      &-right {
+        margin-left: 123px;
+        &-btn {
+          width: 128px;
+          height: 40px;
+          background-color: #3e77ec;
+          color: #ffffff;
+          font-size: 15px;
+          border: none;
+          border-radius: 5px;
+        }
+      }
+    }
+  }
+  &-bottom {
+    margin-left: 17px;
+    margin-top: 30px;
+    &-btn {
+      width: 386px;
+      height: 60px;
+      background-color: #3e77ec;
+      color: #ffffff;
+      border: none;
+      border-radius: 5px;
+      font-size: 20px;
+    }
+  }
+}
+
+input:focus {
+  outline: none;
+}

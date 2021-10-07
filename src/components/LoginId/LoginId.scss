@@ -1,0 +1,56 @@
+.LoginId {
+  text-align: left;
+  width: 420px;
+  height: 850px;
+  &-top {
+    margin-left: 17px;
+    margin-top: 22px;
+    margin-bottom: 32px;
+    &-img {
+      margin-bottom: 100px;
+    }
+    &-text {
+      margin-left: 13px;
+      font-size: 25px;
+      font-weight: bold;
+    }
+  }
+  &-mid {
+    margin-left: 35px;
+    &-text {
+      font-size: 15px;
+      color: #7c7b82;
+      margin-bottom: 16px;
+    }
+    &-input {
+      border: none;
+      border-bottom: 2px solid #f0f0f2;
+      width: 354px;
+      margin-bottom: 32px;
+    }
+    &-btn {
+      width: 183px;
+      height: 43px;
+      background-color: #f0f0f2;
+      font-size: 15px;
+      font-weight: lighter;
+      border: none;
+      border-radius: 5px;
+      margin-left: 83px;
+      margin-top: 2px;
+    }
+  }
+  &-bottom {
+    margin-left: 17px;
+    margin-top: 171px;
+    &-btn {
+      background-color: #3e77ec;
+      color: #fff;
+      font-size: 20px;
+      border: none;
+      border-radius: 5px;
+      width: 386px;
+      height: 60px;
+    }
+  }
+}
